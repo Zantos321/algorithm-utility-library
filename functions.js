@@ -109,7 +109,7 @@ function titleCase(userStr) {
          //taking each word from the array
          return strObj.replace(
             // using replace to change each word
-            strObj.charAt(0), // the first argument of replace is pointing to what is being replaced, here is the first letter because charAt(0) will point to fthe first letter of strObj
+            strObj.charAt(0), // the first argument of replace is pointing to what is being replaced, here is the first letter because charAt(0) will point to the first letter of strObj
             strObj.charAt(0).toUpperCase(0) // the second argument is what is replacing the first, in this case a capitalized letter
          );
       })
